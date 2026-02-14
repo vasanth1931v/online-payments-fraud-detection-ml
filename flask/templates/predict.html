@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Fraud</title>
+</head>
+<body style="text-align:center;">
+
+    <h2>Enter Transaction Details</h2>
+
+    <form action="/submit" method="post">
+
+        Step: <input type="number" name="step" required><br><br>
+
+        Type (0=PAYMENT,1=TRANSFER,2=CASH_OUT,3=DEBIT):
+        <input type="number" name="type" required><br><br>
+
+        Amount: <input type="number" name="amount" step="any" required><br><br>
+
+        Old Balance Origin: <input type="number" name="oldbalanceOrg" step="any" required><br><br>
+
+        New Balance Origin: <input type="number" name="newbalanceOrig" step="any" required><br><br>
+
+        Old Balance Dest: <input type="number" name="oldbalanceDest" step="any" required><br><br>
+
+        New Balance Dest: <input type="number" name="newbalanceDest" step="any" required><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
