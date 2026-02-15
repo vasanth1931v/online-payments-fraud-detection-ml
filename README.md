@@ -31,11 +31,9 @@ Model Accuracy: ~99%
 
 ## 🖥️ Application Screenshots
 
-### Fraud Detection
-![Fraud](screenshots/fraud_result.png)
+#![Fraud Detection](./screenshots/fraud_result.png)
+![Legitimate Transaction](./screenshots/legitimate_result.png)
 
-### Legitimate Transaction
-![Legit](screenshots/legitimate_result.png)
 
 ---
 
